@@ -1,3 +1,0 @@
-[role3]
-arn:1009:2009
-default
