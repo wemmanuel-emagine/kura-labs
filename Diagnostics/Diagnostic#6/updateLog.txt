@@ -1,54 +1,0 @@
-Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
-Get:2 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [114 kB]
-Get:3 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
-Get:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [99.8 kB]
-Get:5 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [275 kB]
-Get:6 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [66.3 kB]
-Get:7 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [116 kB]
-Get:8 http://security.ubuntu.com/ubuntu jammy-security/universe Translation-en [40.7 kB]
-Get:9 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [519 kB]
-Get:10 http://archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [124 kB]
-Get:11 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 c-n-f Metadata [8004 B]
-Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [221 kB]
-Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [74.8 kB]
-Fetched 1769 kB in 10s (183 kB/s)
-Reading package lists...
-Building dependency tree...
-Reading state information...
-2 packages can be upgraded. Run 'apt list --upgradable' to see them.
-Reading package lists...
-Building dependency tree...
-Reading state information...
-Calculating upgrade...
-The following packages will be upgraded:
-  libnftables1 nftables
-2 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-2 not fully installed or removed.
-Need to get 399 kB of archives.
-After this operation, 0 B of additional disk space will be used.
-Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 nftables amd64 1.0.2-1ubuntu3 [67.2 kB]
-Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnftables1 amd64 1.0.2-1ubuntu3 [332 kB]
-Fetched 399 kB in 2s (212 kB/s)
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 71324 files and directories currently installed.)
-Preparing to unpack .../nftables_1.0.2-1ubuntu3_amd64.deb ...
-Unpacking nftables (1.0.2-1ubuntu3) over (1.0.2-1ubuntu2) ...
-Preparing to unpack .../libnftables1_1.0.2-1ubuntu3_amd64.deb ...
-Unpacking libnftables1:amd64 (1.0.2-1ubuntu3) over (1.0.2-1ubuntu2) ...
-Setting up libnftables1:amd64 (1.0.2-1ubuntu3) ...
-Setting up nftables (1.0.2-1ubuntu3) ...
-Setting up nmap-common (7.91+dfsg1+really7.80+dfsg1-2build1) ...
-/usr/bin/zcat: 51: exec: gzip: Exec format error
-dpkg: error processing package nmap-common (--configure):
- installed nmap-common package post-installation script subprocess returned error exit status 126
-dpkg: dependency problems prevent configuration of nmap:
- nmap depends on nmap-common (= 7.91+dfsg1+really7.80+dfsg1-2build1); however:
-  Package nmap-common is not configured yet.
-
-dpkg: error processing package nmap (--configure):
- dependency problems - leaving unconfigured
-Processing triggers for man-db (2.10.2-1) ...
-Processing triggers for libc-bin (2.35-0ubuntu3.1) ...
-Errors were encountered while processing:
- nmap-common
- nmap
-needrestart is being skipped since dpkg has failed
